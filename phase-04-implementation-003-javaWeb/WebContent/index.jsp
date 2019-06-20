@@ -5,7 +5,7 @@
 <head>
 <style>
 .background1 {
-	background-image: url(/static/imgs/pic008.jpg);
+	background-image: url(/static/imgs/pic002.jpg);
 	background-color: #000000;
 }
 </style>
@@ -56,19 +56,18 @@
 </head>
 <body class="background1">
 	<audio id="intr" controls="controls"
-		src="/static/audio/introduction.mp3" autoplay="autoplay"></audio>
-	<audio id="poem" src="/static/audio/wanderingEarch-poem.mp3"
+		src="/static/audio/1.mp3" autoplay="autoplay"></audio>
+	<audio id="poem" src="/static/audio/waiting.mp3"
 		preload="auto"></audio>
-    <span id="firstline" style="font-size: 22px; color: white">大家好，我与这学期学习“软件工程导论”的学生们准备设计和实现一个“<span
-		style="font-size: 38px; color: red">流浪地球</span>”的模拟工程！ 欢迎大家观赏,谢谢！点击屏幕左下角的地球，可以开始悲壮的流浪！！
+    <span id="firstline" style="font-size: 22px; color: white">点击屏幕左下角的飞船，可以开始悲壮的流浪！！
 	</span>
 	<audio id="waiting" src="/static/audio/waiting.mp3" preload="auto" onended="onWaitingAudioEnd();"></audio>
 	<div id="poem-txt"
 		style="display: none; font-size: 18px; color: orange; position:absolute; left :10px;top:50px" >
-		《诗词版"流浪地球"》<br /> <span style="font-size: 18px; color: grey">
-			-郭鹏 </span><br /> <br /> 西风吹皱东方河，万年地球白发多。 <br /> 流浪星际家何去，满船清梦出银河。
+		宇宙<br /> <span style="font-size: 18px; color: grey">
+			 </span><br /> <br /> 广义的宇宙定义是万物的总称，是时间和空间的统一。狭义的宇宙定义是地球大气层以外的空间和物质。“宇宙航行”的“宇宙”定义就是狭义的“宇宙”的定义，宇宙航行意思就是在大气层以外的空间航行。
 	</div>
-	<img src="/static/imgs/earth.png"
+	<img src="/static/imgs/1.jpg"
 		style="position: absolute; left: 10px; bottom: 10px; width: 150px"
 		onclick="run(this);return false" 
 		title="点击后，开始流浪 ！"
